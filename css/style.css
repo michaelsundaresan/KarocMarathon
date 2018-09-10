@@ -1,0 +1,194 @@
+
+* {font-family:"Tacoma, Arial";
+            }
+        
+.delipic {transform: rotate(90deg);
+             }
+
+
+table {margin-left: 50px;}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+header {background-color: lightgrey;
+      color: black;
+      font-size: .75em;
+  	text-align: center;
+    }
+
+body {font-size: 2em;
+      text-align: center;
+      }
+
+body {background-color: #FCFAFA;
+      background-image: url('img/beers.jpg');}
+    
+ul {list-style-type: none;
+   }
+nav ul li {text-align: right;}
+
+div#growler img{
+	position: center;
+  max-height: 70%;
+  max-width:70%;}
+
+a {color:blue;
+   text-decoration: none;}
+a:hover {color: red;
+         }
+a:active {color: black;}
+
+footer {text-align: center;
+        font-size: .75em;}
+th {text-align: center;}
+
+img {max-width: 25%;
+     height: auto;}
+
+ul .nav navbar-nav {text-align: center;}
+
+
+ tr {color: red;
+          font-size: 1em; 
+	      text-align: left;}
+
+li.active a {color: red;}
+
+div#hours {text-align: center;
+       font-size: .9em;
+       margin-top: -5%;
+      }
+
+#summary {text-align: center;
+clear:right;}
+
+nav .navbar {text-align: center;
+  margin-left: auto;
+  margin-right: auto;}
+
+
+form{
+margin-top: 50px;
+transition: all 4s ease-in-out;
+}
+
+.form-control
+{
+  text-align: center; 
+  width:600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+
+form {display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;}
+
+form .submit
+{
+    background: royalblue; /* #ff5722;*/
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+
+background-color: cyan;/*#f44326;*/
+cursor: pointer;
+}
+.centerform  {display: block;
+              text-align: center;}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 600px) {
+  {font-size: .25em;} }
+
+@media only screen and (min-width: 600px) {...} 
+
+@media only screen and (min-width: 768px) {...} 
+
+@media only screen and (min-width: 992px) {...} 
+
+@media only screen and (min-width: 1200px) {...} 
+
+ul#topsellers li {text-indent: 12%;
+                  text-align: left;
+                  font-size: .75em;}
+ul#topsellers li h1 {text-align: left;
+                     }
+
+div#centersellers ul {text-align: left;}
+div#flavors ul li {text-align: center;
+                   clear:right;
+                   font-size: .75em;}
+
+div#hours {text-indent: 40%;}
+
+td {text-align: center;}
+
+table {width: 400px;}
+
+.column ul#winelist {font-size: .75em;
+text-indent: 30%;
+text-align: left;}
+  
+ul#winerys{font-size: .75em;
+text-indent: 30%;
+text-align: left;}
+
+
+ul#highend{font-size: .75em;
+text-indent: 30%;
+text-align: left;}
+
+ul#breweries{font-size: .75em;
+             margin-top: -52%;/*-1185px;*/
+             text-indent: 35%;}
+
+ul#domestics{font-size: .75em;
+            text-indent: 35%;}
+
+div#flavors ul {float:left;}
+
+div.container {text-align: left;}
+
+div.indent {margin-left: 10%;}
+
+div.backimage /*{background-image: url("../img/beerwinebackground.jpg");
+               background-repeat: no-repeat;}*/
