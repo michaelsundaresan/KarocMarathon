@@ -1,6 +1,7 @@
 
-* {font-family:"Tacoma, Arial";
-            }
+* {font-family: 'Hind', sans-serif;
+
+}
         
 .delipic {transform: rotate(270deg);
           width: 100%;
@@ -21,13 +22,13 @@ table {margin-left: 50px;}
   display: inline-block;
   float: none;
   vertical-align: top;
-}
+  }
 
 .navbar .navbar-collapse {
   text-align: center;
 }
 
-header {background-color: lightgrey;
+header {background-color: grey;
       color: black;
       font-size: .75em;
   	text-align: center;
@@ -35,16 +36,14 @@ header {background-color: lightgrey;
 
 body {font-size: 2em;
       text-align: center;
-      }
+      background-color: #FCFAFA;}
 
-body {background-color: #FCFAFA;
-      background-image: url('img/beers.jpg');}
-    
+
 ul {list-style-type: none;
    }
 nav ul li {text-align: right;}
 
-nav ul li a:hover {box-shadow: none;}
+nav a:hover {box-shadow: none;}
 
 div#growler img{
 	position: center;
@@ -53,7 +52,7 @@ div#growler img{
 
 a {color:black;
    text-decoration: none;
-    box-shadow: none;}
+    font-family: 'Fjalla One', sans-serif;}
 a:hover {color: white;
         box-shadow: none;}
 
@@ -228,3 +227,4 @@ img#frontlogo {width:12%;
 div#beerimg {display: none;}
 
 div#indent{margin-left: 9.5%;}
+
