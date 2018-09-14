@@ -2,8 +2,17 @@
 * {font-family:"Tacoma, Arial";
             }
         
-.delipic {transform: rotate(90deg);
-             }
+.delipic {transform: rotate(270deg);
+          width: 100%;
+          height:auto;}
+
+          .delipic img {width: 50%;
+                        height: auto;}    
+.delipic2 {transform: rotate(90deg);
+          margin-top:-20%;
+          height:auto;}
+.delipic2 img {width: 50%;
+               height: auto;}  
 
 
 table {margin-left: 50px;}
@@ -35,37 +44,41 @@ ul {list-style-type: none;
    }
 nav ul li {text-align: right;}
 
+nav ul li a:hover {box-shadow: none;}
+
 div#growler img{
 	position: center;
   max-height: 70%;
   max-width:70%;}
 
-a {color:blue;
-   text-decoration: none;}
-a:hover {color: red;
-         }
-a:active {color: black;}
+a {color:black;
+   text-decoration: none;
+    box-shadow: none;}
+a:hover {color: white;
+        box-shadow: none;}
+
 
 footer {text-align: center;
         font-size: .75em;}
 th {text-align: center;}
 
-img {max-width: 25%;
-     height: auto;}
+
+
 
 ul .nav navbar-nav {text-align: center;}
 
 
- tr {color: red;
+ tr {color: black;
           font-size: 1em; 
 	      text-align: left;}
 
-li.active a {color: red;}
+li.active a {color: white;}
 
-div#hours {text-align: center;
-       font-size: .9em;
-       margin-top: -5%;
-      }
+div#hours {color: black;
+       text-align: center;
+       font-size: 1em;
+       margin-top: 5%;
+      float:left;}
 
 #summary {text-align: center;
 clear:right;}
@@ -137,9 +150,15 @@ cursor: pointer;
 .col-12 {width: 100%;}
 
 @media only screen and (max-width: 600px) {
-  {font-size: .25em;} }
+  {font-size: .25em;} 
+}
 
-@media only screen and (min-width: 600px) {...} 
+@media only screen and (min-width: 600px) {
+  {font-size: .75em;}
+}
+
+div#summary {font-size: 1em;}
+ 
 
 @media only screen and (min-width: 768px) {...} 
 
@@ -150,6 +169,7 @@ cursor: pointer;
 ul#topsellers li {text-indent: 12%;
                   text-align: left;
                   font-size: .75em;}
+
 ul#topsellers li h1 {text-align: left;
                      }
 
@@ -166,29 +186,45 @@ table {width: 400px;}
 
 .column ul#winelist {font-size: .75em;
 text-indent: 30%;
-text-align: left;}
+text-align: left;
+color: white;}
   
 ul#winerys{font-size: .75em;
 text-indent: 30%;
-text-align: left;}
+text-align: left;
+color:white;}
 
 
 ul#highend{font-size: .75em;
 text-indent: 30%;
-text-align: left;}
+text-align: left;
+color:white;}
 
 ul#breweries{font-size: .75em;
              margin-top: -52%;/*-1185px;*/
-             text-indent: 35%;}
+             text-indent: 35%;
+              color: white;}
 
-ul#domestics{font-size: .75em;
-            text-indent: 35%;}
-
-div#flavors ul {float:left;}
+div#flavors ul {float: left;
+                margin-left: 15%;}
 
 div.container {text-align: left;}
 
 div.indent {margin-left: 10%;}
 
-div.backimage /*{background-image: url("../img/beerwinebackground.jpg");
-               background-repeat: no-repeat;}*/
+div.backimage {background: url("../img/beerwinebackground.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;    
+    }
+
+img.logo {width:12%;
+          height:auto;
+          align-self: center;}
+
+img#frontlogo {width:12%;
+          height:auto;
+          align-self: center;
+          margin-left: -27%;}
+div#beerimg {display: none;}
+
+div#indent{margin-left: 9.5%;}
