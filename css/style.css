@@ -79,7 +79,7 @@ div#hours {color: black;
        margin-top: 5%;
       float:left;}
 
-div#hours table td:hover, th:hover {color:white;}
+/* div#hours table td:hover, th:hover {color:white;} */
 
 
 #summary {text-align: center;
