@@ -47,7 +47,6 @@ body {font-size: 2em;
 
 ul {list-style-type: none;
    }
-nav ul li {text-align: right;}
 
 nav a:hover {box-shadow: none;}
 
@@ -73,10 +72,13 @@ th {text-align: center;}
 li.active a {color: white;}
 
 div#hours {color: black;
-       text-align: center;
+       display: block;
+       margin: 0 auto;
+       width: 40px;
+       text-align: left;
        font-size: 1em;
        margin-top: 5%;
-      float:left;}
+       float: right;}
 
 
 #summary {text-align: center;
@@ -156,7 +158,7 @@ div#flavors ul li {text-align: center;
                    clear:right;
                    font-size: .75em;}
 
-div#hours {text-indent: 40%;}
+
 
 td {text-align: center;}
 
@@ -207,13 +209,11 @@ div.backimage {background: url("../img/newbeer.jpg");/* "../img/image25.jpg");/*
     }
 
 
-img.logo {width:12%;
-          height:auto;
-          align-self: center;}
+
 
 img#frontlogo {width:12%;
-          height:auto;
-          margin-left: -27%;}
+          text-align: center;
+                }
 div#beerimg {display: none;}
 
 div#indent{margin-left: 9.5%;}
@@ -222,14 +222,8 @@ h4 {font-family: 'Hind', sans-serif;}
 
 .nav > li > a:hover, .nav > li > a:focus {background-color: grey;}
 
-div#movelist {margin-left: -15%;}
 
-div#movelist2 {margin-left: -85%;}
-
-
-
-img {
-        max-width: 100%;
+img.logo {max-width: 12%;
 }
 
 button {text-align: center;}
