@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Hind" rel="stylesheet">
+<script src="js/modal.js"></script>
 </head>
 <header>
    <img class ="logo" src= "img/web2.png">
@@ -21,13 +22,14 @@
         	  <li><a href="https://www.beermenus.com/places/51376-karoc-marathon" target="_blank">Growler Station</a></li>
       		  <li><a href="wine.html">Wine and Beer Selection</a></li>
         		<li><a href="cigars.html">Premium Cigars</a></li>
-        		<li class="active"><a href="delipage.html">Corner Deli Menu</a></li>
+        		<li class="active"><a href="delipage2.html">Corner Deli Menu</a></li>
         		<li><a href="contact.html">Contact Us</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-    
+    <br>
+  <button type ="button" class = "btn btn-default"> <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></button>
 
 </header>
 
@@ -45,7 +47,54 @@ daily special.</p>
   </ul>  
 </div>
 
-<p><h2>Click HERE for a view of the full menu</h2></p>
+<p><h2>Click <a href="delipage.html">HERE</a> for a view of the full menu</h2></p>
+
+
+<div class="row">
+  <div class="column">
+    <img src="img/deli1.jpg" class="delipic" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img/delimenu3.jpeg" class="delipic2" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img/deli1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="img/delimenu3.jpeg" style="width:100%">
+    </div>
+
+<!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="img/deli1.jpg" onclick="currentSlide(1)" alt="Page 1">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img/delimenu3.jpeg" onclick="currentSlide(2)" alt="Page 2">
+    </div>
+  </div>
+</div>
+
+
 
 <!--
     <li>Spicy Italian</li>
@@ -151,6 +200,7 @@ daily special.</p>
 
 <script   src="https://code.jquery.com/jquery-1.12.4.js"   integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="   crossorigin="anonymous"></script>
 <script src="js/bootstrap.js"></script>	
+<script src="menu.js"></script>
 </body>
 <br><br><br><br><br>
 
