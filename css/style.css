@@ -44,7 +44,17 @@ header {background-color: grey;
   	text-align: center;
     }
 
-i.facebook-f {color: cyan;
+i.fab.fa-facebook-f {transition: color .5s ease;
+                     color:blue;}
+i.fab.fa-facebook-f:hover {color: cyan;
+
+
+}
+
+i.fab.fa-instagram {transition: color .5s ease;
+                     color:red;}
+i.fab.fa-instagram:hover {color: orange;
+
 
 }
 
@@ -92,6 +102,10 @@ div#hours {color: black;
        font-size: 1em;
        margin-top: 5%;
        float: right;}
+
+td {text-align: center;}
+
+table {width: 400px;}
 
 
 #summary {text-align: center;
@@ -172,9 +186,7 @@ div#flavors ul li {text-align: center;
 
 
 
-td {text-align: center;}
 
-table {width: 400px;}
 
 ul#winelist {font-size: .75em;
 text-indent: 30%;
