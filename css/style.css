@@ -8,100 +8,98 @@
           height:auto;
 }
 
-          /*.delipic img {width: 50%;
-                        height: auto;}*/    
+          
 .delipic2 {transform: rotate(90deg);
            width: 40%;
            height:auto;
 }
 
-/*
-.delipic2 img {width: 50%;
-               height: auto;}  
-*/
-
-
-
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
   vertical-align: top;
-  
- }
+}
 
 .navbar .navbar-collapse {
   text-align: center;
-  
 }
 
-nav .navbar {text-align: center;
+nav .navbar {
+  text-align: center;
   margin-left: auto;
-  margin-right: auto;}
+  margin-right: auto;
+}
 
 header {background-color: grey;
       color: black;
       font-size: .75em;
-  	text-align: center;
-    }
+    	text-align: center;
+}
 
 i.fab.fa-facebook-f {transition: color .5s ease;
-                     color:blue;}
+                     color:blue;
+}
 i.fab.fa-facebook-f:hover {color: cyan;
-
-
 }
 
 i.fab.fa-instagram {transition: color .5s ease;
-                     color:red;}
+                    color:red;
+}
 i.fab.fa-instagram:hover {color: orange;
-
-
 }
 
 
 body {font-size: 2em;
       text-align: center;
-      background-color: lightgrey;} /*#FCFAFA;}*/
+      background-color: lightgrey;
+} /*#FCFAFA;}*/
 
 
 ul {list-style-type: none;
-   }
+}
 
 nav a:hover {box-shadow: none;
-
 }
 
  div#growler {background: url("karoc drone pics 021.jpg"); /*("../img/beerwinebackground.jpg");*/
-    background-size: 100%;}    
+              background-size: 100%;
+}    
     
 a {color:black;
    text-decoration: none;
-    font-family: 'Fjalla One', sans-serif;}
+   font-family: 'Fjalla One', sans-serif;
+}
 
 a:hover {color: white;
-        box-shadow: none;}
+        box-shadow: none;
+}
 
 
 footer {text-align: center;
-        font-size: .75em;}
+        font-size: .75em;
+}
 
-table {margin-left: 50px;}
+table {margin-left: 50px;
+}
 
-th {text-align: center;}
+th {text-align: center;
+}
 
  tr {color: black;
-          font-size: 1em; 
-	      text-align: left;}
+     font-size: 1em; 
+	   text-align: left;
+}
 
-li.active a {color: white;}
+li.active a {color: white;
+}
 
 div#hours {color: black;
-       
-       width: 40px;
-       text-align: left;
-       font-size: 1em;
-       margin-top: 5%;
-       float: right;}
+           width: 40px;
+           text-align: left;
+           font-size: 1em;
+           margin-top: 5%;
+           float: left;
+}
 
 td {text-align: center;}
 
@@ -109,7 +107,7 @@ table {width: 400px;}
 
 
 #summary {text-align: center;
-clear:right;}
+          clear:right;}
 
 
 form{
@@ -205,39 +203,44 @@ text-align: left;
 color: white;}
 
 ul#breweries{font-size: .75em;
-             
-              color: white;
-              float: center;}
+             color: white;
+             float: center;
+}
 
-              ul#breweries li {align-items: left;}
+ul#breweries li {align-items: left;
+}
 
 ul#breweries2{font-size: .75em;
-            
-             margin-right: 15%;
-            
+              margin-right: 15%;
               color: white;
-              float: right;}
+              float: right;
+}
+
 ul#breweries2 li {align-items: left;
-                  width: 300px;}
+                  width: 300px;
+}
 
 div#flavors ul {float: left;
-                margin-left: 15%;}
+                margin-left: 15%;
+}
 
-div.container {text-align: left;}
+div.container {text-align: left;
+}
 
-div.indent {margin-left: 10%;}
+div.indent {margin-left: 10%;
+}
 
 div.backimage {background: url("../img/newbeer.jpg");/* "../img/image25.jpg");/*("../img/beerwinebackground.jpg");*/
     background-repeat: repeat-y;
     background-size: 100%;    
-    }
+}
 
 
 
 
-img#frontlogo {width:12%;
+img.frontlogo {max-width:12%;
           text-align: center;
-                }
+}
 div#beerimg {display: none;}
 
 div#indent{margin-left: 9.5%;}
@@ -247,8 +250,7 @@ h4 {font-family: 'Hind', sans-serif;}
 .nav > li > a:hover, .nav > li > a:focus {background-color: grey;}
 
 
-img.logo {max-width: 12%;
-}
+
 
 button {text-align: center;}
 
@@ -266,7 +268,7 @@ button {text-align: center;}
 /* Create four equal columns that floats next to eachother */
 .column {
   float: left;
-  width: 25%;
+  width: 50%;
 }
 
 /* The Modal (background) */
@@ -382,29 +384,40 @@ img.hover-shadow {
 
 
 
-@media (max-width: 1200px) {
-.container {max-width: 80%;}
+@media (min-width: 1200px) {
+.container {max-width: 100%;}
  } /* for desktops */
 
-@media (max-width: 991px) {.container {max-width: 991px;}
-nav.navbar {max-width: 60%;
-margin-left: auto;
-margin-right: auto;}
+@media (min-width: 991px) {.container {max-width: 1200px;}
+nav.navbar {width: 100%;
+            margin-left: auto;
+            margin-right: auto;}
 } /* for laptops */
 
-@media (min-width: 768px) /*and (max-width: 990px)*/ {.container {max-width: 80%;}
- nav.navbar {max-width: 100%;
+@media (min-width: 768px) and (max-width: 990px) {.container {width: 100%;}
+ nav.navbar {width: 100%;
+             margin-left: auto;
+             margin-right: auto;}
+} /* for large tablets */
 
-margin-left: auto;
-margin-right: auto;}} /* for large tablets */
-
-@media (max-width: 768px) {.container {max-width: 80%;} 
+@media (min-width: 500px;)and (max-width: 767px) {.container {width: 100%;}
+ body {font-size: 1.5em;}
+nav.navbar {width: 100%;
+             margin-left: auto;
+             margin-right: auto;}
+           } 
 } /* for smaller tablets */
 
-@media (max-width: 500px) {.container {max-width: 80%;}
-  *{font-size: .8em;} 
-  img#frontlogo {width: 50%;}
+@media (min-width: 300px) {.container {width: 300px;}
+ body {font-size: 1.5em;}
+nav.navbar {width: 100%;
+            margin-left: auto;
+            margin-right: auto;}
+  *{font-size: 1em;} 
+  }
 } /* for cellphones */
+
+
 
 
 /*
@@ -450,8 +463,10 @@ margin-right: auto;}} /* for large tablets */
     
 }
 */
-.container{max-width: 1200px;}
 
+/*
+.container{max-width: 1200px;}
+*/
 img {max-width: 100%;}
 
 h2 b {color: white;}
