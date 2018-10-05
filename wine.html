@@ -8,33 +8,39 @@
 	<link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Hind" rel="stylesheet">
 </head>
-<header>
-   <img class ="frontlogo" src= "img/web2.png">
-
-  	<nav class="navbar">
-    	<div class="container">
-      	<div class="navbar-header">
-       </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-        	  <li><a href = "https://www.beermenus.com/places/51376-karoc-marathon" target="_blank">Growler Station</a></li>
-			      <li class="active"><a href = "wine.html">Wine and Beer Selection</a></li>
-			      <li><a href = "cigars.html">Premium Cigars</a><li>
-			      <li><a href="delipage2.html">Corner Deli Menu</a></li>
-			      <li><a href = "contact.html">Contact Us</a></li>
-           </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-     <br>
- <button type ="button" class = "btn btn-default"> <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></button>
- </p>
-
-</header>
-
 
 <body>
+  
+
+    <nav class="navbar" id="navbar">
+      <div class="container">
+            <div class="row frontlogo-container">
+              <img class="frontlogo" src="img/web2.png">
+            </div>
+              
+            <div class="collapse navbar-collapse row">
+            <ul class="nav navbar-nav">
+                <li class="col-xs-12 col-md-1 active"><a href="index.html">Home</a></li>
+                <li class="col-xs-12 col-md-2"><a href="https://www.beermenus.com/places/51376-karoc-marathon" target="_blank">Growler Station</a></li>
+                <li class="col-xs-12 col-md-2"><a href="wine.html">Wine and Beer Selection</a></li>
+                <li class="col-xs-12 col-md-2"><a href="cigars.html">Premium Cigars</a></li>
+                <li class="col-xs-12 col-md-2"><a href="delipage2.html">Corner Deli Menu</a></li>
+                <li class="col-xs-12 col-md-2"><a href="contact.html">Contact Us</a></li>
+                <li class="col-xs-12 col-md-1">
+                  <a href="http://www.facebook.com/karocmarathon" target="_blank">
+                      <i class="fab fa-facebook-f">
+                    </i>
+                    </a>
+                    <a href="http://www.instagram.com/karocmarathon" target="_blank">
+                    <i class="fab fa-instagram">
+                    </i>
+                    </a>
+                </li>            
+            </ul>      
+          </div>
+    </nav>
+   <br>
+ <button type ="button" class = "btn btn-default nav-toggle"> <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></button>
 
 
 <div class="backimage">
@@ -232,7 +238,8 @@
 <script src="js/bootstrap.js"></script>	
 <script src="//rss.bloople.net/?url=https%3A%2F%2Fwww.facebook.com%2FKarocMarathon%2F&limit=10&showicon=true&type=js"></script>
 <script src="menu.js"></script>
-</ul></ul></div></div></body>
+</ul></ul></div></div>
+</body>
 
 
 
