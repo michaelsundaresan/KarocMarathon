@@ -47,8 +47,9 @@ i.fab.fa-facebook-f:hover {color: cyan;
 }
 
 i.fab.fa-instagram {transition: color .5s ease;
-                    color:red;
+                    color:red;right: 20px;
 }
+ 
 i.fab.fa-instagram:hover {color: orange;
 }
 
@@ -102,26 +103,27 @@ div#hours {color: black;
            text-align: left;
            font-size: 1em;
            top: 20px;
-           position: absolute;
            left: 20px;
+           position: absolute;
 }
 
 td {text-align: center;}
 
-table {width: 200px;}
+table {width: 200px;
+       
+}
 
 
 #summary {text-align: center;
           clear:right;}
 
 
-form{
+form {
 margin-top: 50px;
 transition: all 4s ease-in-out;
 }
 
-.form-control
-{
+.form-control {
   text-align: center; 
   width:600px;
   background: transparent;
@@ -140,10 +142,10 @@ input {
 form {display: inline-block;
       margin-left: auto;
       margin-right: auto;
-      text-align: left;}
+      text-align: left;
+}
 
-form .submit
-{
+form .submit {
     background: royalblue; /* #ff5722;*/
     border-color: transparent;
     color: #fff;
@@ -155,9 +157,8 @@ form .submit
 }
 
 form .submit:hover {
-
-background-color: cyan;/*#f44326;*/
-cursor: pointer;
+     background-color: cyan;/*#f44326;*/
+     cursor: pointer;
 }
 .centerform  {display: block;
               text-align: center;}
@@ -350,7 +351,7 @@ button {text-align: center;}
 
  
 .prev:hover,
-.next:hover {color: rgba(255, 255, 255, 0.8);
+.next:hover {color: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -431,23 +432,19 @@ nav.navbar {width: 100%;
 @media screen and (max-width: 1690px) { 
    .container {width:100%;}
     nav    {width:100%;
-           
-           text-align:center;  
-           display: inline;}                     
+            text-align:center;  
+            display: inline;}                     
 
     nav.navbar ul  {display: inline-block;
                    align-items: right;}
 }
 
-
-
 @media screen and (max-width: 1280px) { 
 
     .container {width: 100%;}
     nav    {width:100%;
-           
-           text-align:center;  
-           display: inline;} 
+            text-align:center;  
+            display: inline;} 
                              
     nav.navbar ul  {display: inline-block;
                    align-items: right;}
@@ -455,44 +452,40 @@ nav.navbar {width: 100%;
 
 @media screen and (max-width: 980px) { 
     .container {width:100%;}
- 
     nav    {width:100%;
-          
            text-align:center;  
            display: inline;}
                         
-
     nav.navbar ul  {display: inline-block;
                    align-items: right;}
 }
 
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) and (min-width: 481px){ 
 
-.nav-toggle {display: block;}
+.nav-toggle {display: inline-block;}
 .container {width:100%;}
     nav    {width:100%;
-         
-           text-align:center;  
-           display: none;}                     
+            text-align:center;  
+            display:none;}                     
 
     nav.navbar ul  {display: inline-block;
                    align-items: right;}
-
 
 ul.nav.navbar-nav {font-size:75%;}
 }
-
+/*
 @media screen and (max-width:767px) {
+ .nav-toggle {display: block;}
   table {font-size:70%;
         width:100%;}
   .container {width:100%;}
     nav    {width:100%;
            text-align:center;  
-           display: inline;}                     
+           display: none;}                     
 
-    nav.navbar ul  {display: inline;
-                   align-items: right;}
+    nav.navbar ul  {display:inline;
+                   text-align:center;}
 
 
 
@@ -500,30 +493,41 @@ ul.nav.navbar-nav {font-size:75%;}
   
 
 }
+*/
 
 
-
-@media screen and (max-width:480px) {
-* {font-size: 75%;}
+@media screen and (max-width:480px) and (min-width:321px){
+ 
+  .nav-toggle {display: inline-block;}
   .container {width: 100%;}
-   nav            {width:100%;
-                   text-align:center;  
-                   display: none;}
+  body {font-size: 75%;}
+  img#car {width: 40%;}
+  nav            {width:100%;
+                  text-align:center;  
+                  display:inline;}
 
-   nav.navbar ul  {display: inline;
-                   text-align: center;}
+   nav.navbar ul  {display:inline;
+                   text-align:center;
+  }
 } 
 
 
- @media screen and (max-width:320px){
+ @media screen and (max-width:320px) {
+    body {max-width: 100%;}
+    .nav-toggle {display: inline-block;
+                 }
     .container {width:100%;}
+    img#car {width: 40%;}
     nav            {width:100%;
-                   padding:15px;
                    text-align:center;  
                    display: none;}               
+    .navbar {width: 320px;}
 
-    nav.navbar ul  {display: inline;
+
+    nav.navbar ul {display: none;
                    text-align: center;}
+   
+   li {text-align: center;}
 }
 
 
