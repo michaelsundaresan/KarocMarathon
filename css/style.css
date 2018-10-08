@@ -190,9 +190,17 @@ div#flavors ul li {text-align: center;
 
 .bottlelist {margin:0;
              padding:0;
+             text-align: center;
 }
-.winepage h2 {text-align: center;}
-.winepage {color:white;}
+.winepage h2 {color:white;
+              text-align:center;
+}
+
+.winepage {color:white;
+}
+.winepage {color:white;
+           text-align: center;
+}
 
 
 div#flavors ul {float: left;

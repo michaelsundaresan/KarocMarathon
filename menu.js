@@ -1,5 +1,5 @@
 $("button").on("click", 
 	function() {
-		$("nav.navbar").slideToggle("4000");
+		$("nav.navbar").slideToggle("2000");
 });
 
