@@ -5,7 +5,6 @@ body {
 
  
 
-
 .delipic {
   transform: rotate(270deg);
           width: 40%;
@@ -389,42 +388,6 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-
-
-/*
-@media (min-width: 1200px) {
-.container {max-width: 100%;}
- } 
-
-@media (min-width: 991px) {.container {max-width: 1200px;}
-nav.navbar {width: 100%;
-            margin-left: auto;
-            margin-right: auto;}
-} 
-
-@media (min-width: 768px) and (max-width: 990px) {.container {width: 100%;}
- nav.navbar {width: 100%;
-             margin-left: auto;
-             margin-right: auto;}
-} 
-
-@media (min-width: 500px;)and (max-width: 767px) {.container {width: 100%;}
- body {font-size: 1.5em;}
-nav.navbar {width: 100%;
-             margin-left: auto;
-             margin-right: auto;}
-           } 
-} 
-
-@media (min-width: 300px) {.container {width: 300px;}
- body {font-size: 1.5em;}
-nav.navbar {width: 100%;
-            margin-left: auto;
-            margin-right: auto;}
-  *{font-size: 1em;} 
-  }
-} */
 
 
 
