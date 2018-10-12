@@ -154,17 +154,16 @@ h4 {font-family: 'Hind', sans-serif;
 }
 
 
-#hours    {
+.hours    {
            color: black;
-           width: 40px;
            text-align: left;
            font-size: 1em;
-           top: 20px;
+           
+/*         top: 20px;
            left: 20px;
            position: absolute;
+*/
 }
-
-
 
 i.fab.fa-facebook-f {transition: color .5s ease;
                      color:blue;
@@ -184,8 +183,8 @@ img {
 }
 
 
-img.frontlogo {max-width:12%;
-}
+/*img.frontlogo {max-width:12%;
+}*/
 
 .indent {margin-left: 10%;
 }
@@ -195,7 +194,7 @@ input {
 }
 
 
-
+#navbar > div > div.navbar-collapse.row > ul {width:100%;}
 
 
 #indent{margin-left: 9.5%;
@@ -233,7 +232,7 @@ nav .navbar {
 
 #navbar {background-color: grey;
       color: black;
-      font-size: .75em;
+      font-size: 14px;
       text-align: center;
 }
 
@@ -247,7 +246,13 @@ nav .navbar {
   display: none;
 }
 
+.sociallink {
+             display:inline-block;
+             padding:10px 0;
+}
 
+.facebooklink {margin-right: 12px;
+}
 
 #summary {
           text-align: center;
@@ -256,7 +261,7 @@ nav .navbar {
 
 table {
        width: 200px;
-       margin-left: 125px;
+       /*margin-left: 125px;*/
 }
 
 td {
