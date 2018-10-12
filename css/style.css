@@ -1,21 +1,219 @@
+a {
+   color:black;
+   text-decoration: none;
+   font-family: 'Fjalla One', sans-serif;
+}
+
+a:hover {
+        color: white;
+        box-shadow: none;
+}
+
+
+.backimage {
+            background: url("../img/newbeer.jpg");/* "../img/image25.jpg");/*("../img/beerwinebackground.jpg");*/
+            background-repeat: repeat-y;
+            background-size: 100%;    
+}
+
+
+#beerimg {
+  display: none;
+}
 
 body {
   font-family: 'Hind', sans-serif;
+  font-size: 2em;
+      text-align: center;
+      background-color: lightgrey;
 }
 
- 
+
+.bottlelist {
+             margin:0;
+             padding:0;
+             text-align: center;
+}
+
+
+button {
+  text-align: center;
+}
+
+.centerform  {
+              display: block;
+              text-align: center;
+              width:100%;
+              margin-left:0;
+              margin-right:0;
+}
+
+#centersellers ul {
+                   text-align: left;
+}
+
+.contact-form {
+              text-align: center;
+              width:50%;
+              margin-left:0;
+              margin-right:0;
+}
+
+.container {text-align: left;
+}
+
+
 
 .delipic {
-  transform: rotate(270deg);
+          transform: rotate(270deg);
           width: 40%;
           height:auto;
 }
 
           
-.delipic2 {transform: rotate(90deg);
+.delipic2 {
+           transform: rotate(90deg);
            width: 40%;
            height:auto;
 }
+
+
+/*#flavors ul {float: left;
+                margin-left: 15%;
+}*/
+
+#flavors ul {
+             padding:0;
+             margin:0;
+}
+#flavors ul li {
+                text-align: center;
+                font-size: 12px;
+}
+
+
+footer {
+        text-align: center;
+        font-size: 12px;
+        color:black;
+}
+
+
+form {
+      margin-top: 50px;
+      transition: all 4s ease-in-out;
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+}
+
+.form-control {
+  text-align: center; 
+  width:600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+form .submit {
+    background: royalblue; 
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+     background-color: cyan;/*#f44326;*/
+     cursor: pointer;
+}
+
+
+.frontlogo-container {text-align: center;
+}
+
+#growler {
+           background: url("karoc drone pics 021.jpg"); /*("../img/beerwinebackground.jpg");*/
+           background-size: 100%;
+}    
+
+
+h2 b {
+      color: white;
+}
+
+h4 {font-family: 'Hind', sans-serif;
+}
+
+
+#hours    {
+           color: black;
+           width: 40px;
+           text-align: left;
+           font-size: 1em;
+           top: 20px;
+           left: 20px;
+           position: absolute;
+}
+
+
+
+i.fab.fa-facebook-f {transition: color .5s ease;
+                     color:blue;
+}
+i.fab.fa-facebook-f:hover {color: cyan;
+}
+
+i.fab.fa-instagram {transition: color .5s ease;
+                    color:red;right: 20px;
+}
+ 
+i.fab.fa-instagram:hover {color: orange;
+}
+
+img {
+     max-width: 100%;
+}
+
+
+img.frontlogo {max-width:12%;
+}
+
+.indent {margin-left: 10%;
+}
+
+input {
+  height: 45px;
+}
+
+
+
+
+
+#indent{margin-left: 9.5%;
+}
+
+
+
+
+li.active a {color: white;
+}
+
+
+
+nav a:hover {
+             box-shadow: none;
+}
+
+
 
 .navbar .navbar-nav {
   display: inline-block;
@@ -36,207 +234,71 @@ nav .navbar {
 #navbar {background-color: grey;
       color: black;
       font-size: .75em;
-    	text-align: center;
-}
-
-i.fab.fa-facebook-f {transition: color .5s ease;
-                     color:blue;
-}
-i.fab.fa-facebook-f:hover {color: cyan;
-}
-
-i.fab.fa-instagram {transition: color .5s ease;
-                    color:red;right: 20px;
-}
- 
-i.fab.fa-instagram:hover {color: orange;
-}
-
-
-body {font-size: 2em;
       text-align: center;
-      background-color: lightgrey;
-} /*#FCFAFA;}*/
-
-
-ul {list-style-type: none;
-}
-
-nav a:hover {box-shadow: none;
-}
-
- div#growler {background: url("karoc drone pics 021.jpg"); /*("../img/beerwinebackground.jpg");*/
-              background-size: 100%;
-}    
-    
-a {color:black;
-   text-decoration: none;
-   font-family: 'Fjalla One', sans-serif;
-}
-
-a:hover {color: white;
-        box-shadow: none;
 }
 
 
-footer {text-align: center;
-        font-size: .75em;
+.nav > li > a:hover, .nav > li > a:focus {background-color: grey;
 }
 
-table {margin-left: 125px;
+
+
+.nav-toggle {
+  display: none;
 }
 
-th {text-align: center;
+
+
+#summary {
+          text-align: center;
+          clear:right;
 }
 
- tr {color: black;
+table {
+       width: 200px;
+       margin-left: 125px;
+}
+
+td {
+    text-align: center;
+}
+
+
+th {
+    text-align: center;
+}
+
+ tr {
+     color: black;
      font-size: 1em; 
-	   text-align: left;
+     text-align: left;
 }
 
-li.active a {color: white;
+ul {
+  list-style-type: none;
 }
 
-div#hours {color: black;
-           width: 40px;
-           text-align: left;
-           font-size: 1em;
-           top: 20px;
-           left: 20px;
-           position: absolute;
+ul#topsellers li {
+                  text-align: left;
+                  font-size: .9em;
 }
-
-td {text-align: center;}
-
-table {width: 200px;
-       
-}
-
-
-#summary {text-align: center;
-          clear:right;}
-
-
-form {
-margin-top: 50px;
-transition: all 4s ease-in-out;
-}
-
-.form-control {
-  text-align: center; 
-  width:600px;
-  background: transparent;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid black;
-  color: black;
-  font-size: 18px;
-  margin-bottom: 16px;
-}
-
-input {
-  height: 45px;
-}
-
-form {display: inline-block;
-      margin-left: auto;
-      margin-right: auto;
-      text-align: left;
-}
-
-form .submit {
-    background: royalblue; /* #ff5722;*/
-    border-color: transparent;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    height: 50px;
-    margin-top: 20px;
-}
-
-form .submit:hover {
-     background-color: cyan;/*#f44326;*/
-     cursor: pointer;
-}
-.centerform  {display: block;
-              text-align: center;}
-
-/* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-ul#topsellers li {text-align: left;
-                  font-size: .9em;}
 
 ul#topsellers li h1 {text-align: left;
-                     }
-
-div#centersellers ul {text-align: left;}
-div#flavors ul li {text-align: center;
-                   clear:right;
-                   font-size: .8em;}
-
-
-.bottlelist {margin:0;
-             padding:0;
-             text-align: center;
 }
-.winepage h2 {color:white;
+
+
+.winepage h2 {
+              color:white;
               text-align:center;
 }
 
 .winepage {color:white;
 }
-.winepage {color:white;
+.winepage {
+           color:white;
            text-align: center;
 }
 
-
-div#flavors ul {float: left;
-                margin-left: 15%;
-}
-
-div.container {text-align: left;
-}
-
-div.indent {margin-left: 10%;
-}
-
-div.backimage {background: url("../img/newbeer.jpg");/* "../img/image25.jpg");/*("../img/beerwinebackground.jpg");*/
-    background-repeat: repeat-y;
-    background-size: 100%;    
-}
-
-
-
-.frontlogo-container {text-align: center;}
-img.frontlogo {max-width:12%;
-}
-div#beerimg {display: none;}
-
-div#indent{margin-left: 9.5%;}
-
-h4 {font-family: 'Hind', sans-serif;}
-
-.nav > li > a:hover, .nav > li > a:focus {background-color: grey;}
-
-
-
-
-button {text-align: center;}
-
-.nav-toggle {display: none;}
 
 /*Begin Modal CSS*/
 .row > .column {
@@ -315,16 +377,16 @@ button {text-align: center;}
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
-  text-decoration: none;  }
-
-
+  text-decoration: none;  
+}
 
 /* Position the "next button" to the right */
 .next {
   right: 24px;
 }
  
- .prev{left:24px;}
+ .prev{left:24px;
+ }
 
  
 .prev:hover,
@@ -368,145 +430,190 @@ img.hover-shadow {
 }
 
 
+/* Begin Media Queries */
 
-
-@media screen and (max-width: 1690px) { 
-   .container {width:100%;}
-    nav    {width:100%;
-            text-align:center;  
-            /*display: inline;*/}                     
-
-    nav.navbar ul  {display: inline-block;
-                   align-items: right;}
+/*@media screen and (max-width: 1690px) { 
+   .container {width:100%;
 }
+    nav    {width:100%;
+            text-align:center;       
+}                     
+    nav.navbar ul  {display: inline-block;                   
+  }
+}
+
 
 @media screen and (max-width: 1280px) { 
 
-    /*.container {width: 100%;}
-    nav    {width:100%;
-            text-align:center;  
-            display: inline;} 
-                             
-    nav.navbar ul  {display: inline-block;
-                   align-items: right;}
-*/
 }
 
-@media screen and (max-width: 980px) { 
-  /*  .container {width:100%;}
-    nav    {width:100%;
-           text-align:center;  
-           display: inline;}
-                        
-    nav.navbar ul  {display: inline-block;
-                   align-items: right;}*/
+
+@media screen and (max-width: 1024px) { 
+  
+
+  ul.nav.navbar-nav {font-size:14px;
+  }
+
 }
 
 
 @media screen and (max-width: 768px) and (min-width: 481px){ 
-
-    .nav-toggle {display: inline-block;}
-/*    .container {width:100%;}
-    nav    {width:100%;
-            text-align:center;  
-            display:none;}                     
-
-    nav.navbar ul  {display: inline-block;
-                   align-items: right;}*/
-
-    ul.nav.navbar-nav {font-size:75%;}
+    /*table {margin-left: 75px;
+}*/
     .bottlelist li {font-size: 18px;
-                }
+}
+    .nav-toggle {display: inline-block;
+}
+  /*  ul.nav.navbar-nav {font-size:75%;
+}*/
+    
 }
 
 @media screen and (max-width:480px) and (min-width:321px){
-   
-  .nav-toggle {display: inline-block;}
+  body {font-size: 12px;
+}
   .bottlelist li {font-size: 18px;
-                }
-  .container {width: 100%;}
-  body {font-size: 75%;}
-  #hours {margin-left: -200px;}
+}
+   .form-control {
+  text-align: center; 
+  width:480px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  color: black;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+  /*#hours {margin-left: -200px;}*/
   img#car {width: 40%;}
   nav            {width:auto;
                   text-align:center;  
                   display:inline;
   }
-
    nav.navbar ul  {display:inline;
                    text-align:center;
   }
+  .nav-toggle {display: inline-block;
+  }
+   
+  table {font-size: 11px;
+  margin-left: -50px;
 } 
 
 
  @media screen and (max-width:320px) {
-    body {max-width: 100%;
-          font-size: .7em;}
-    .bottlelist li {font-size: 18px;
-    }      
+    body {
+      max-width: 100%;
+      font-size: 12px;
+  }
+    .bottlelist li {
+      font-size: 18px;
+  }      
+
+       .form-control {
+        text-align: center; 
+        width:320px;
+        background: transparent;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid black;
+        color: black;
+        font-size: 14px;
+        margin-bottom: 16px;
+      }
+    
     #hours {margin-left: -200px;}
 
-    .nav-toggle {display: inline-block;
-                 }
-    .container {width:100%;}
+    
     img#car {width: 40%;}
-    nav            {width:100%;
-                   text-align:center;  
-                   display: none;}               
-    .navbar {width: 320px;}
-
-
-    nav.navbar ul {display: none;
-                   text-align: center;}
-   
-   li {text-align: center;}
-}
-
-
-
-
-/* Begin Media queries of old website that works
-@media screen and (max-width: 959px;){
-    .container {width:100%;}
-     nav    {width:100%;
-             padding:15px;
-             text-align:center;  
-             display: inline;}                  
-
-     nav.navbar ul  {display: inline-block;
-                    align-items: right;}
-                  
-      
-    * {font-size: 50%;}
+    
+    li {text-align: center;
+  }
+    nav {
+      width:100%;
+      text-align:center;  
+      display: none;
+    } 
+    .nav-toggle {display: inline-block;
+                 }             
+    .navbar {
+      width: 320px;
     }
 
-@media screen and (max-width: 640px){
-   .container {width:100%;}
-    nav    {width:100%;
-           padding:15px;
-           text-align:center;  
-           display: none;}                     
-
-    nav.navbar ul  {display: inline-block;
-                   align-items: right;}
-            }
-
-
- @media screen and (max-width:320px){
-    .container {width:320px;}
-    nav            {width:100%;
-                   padding:15px;
-                   text-align:center;  
-                   display: none;}               
-
-    nav.navbar ul  {display: inline;
-                   align-items: right;
-            }
+    nav.navbar ul {
+      display: inline; /*none;*/
+      text-align: center;
+  }
+   
 }
-
-
 */
 
-img {max-width: 100%;}
 
-h2 b {color: white;}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   body {
+      max-width: 100%;
+      font-size: 12px;
+  }
+    .bottlelist li {
+      font-size: 18px;
+  }      
+
+       .form-control {
+        text-align: center; 
+        width:320px;
+        background: transparent;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid black;
+        color: black;
+        font-size: 14px;
+        margin-bottom: 16px;
+      }
+    
+    #hours {margin-left: -200px;}
+
+    
+    img#car {width: 40%;}
+    
+    li {text-align: center;
+  }
+    nav {
+      width:100%;
+      text-align:center;  
+      display: none;
+    } 
+    .nav-toggle {display: inline-block;
+                 }             
+    .navbar {
+      width: 320px;
+    }
+
+    nav.navbar ul {
+      display: inline; /*none;*/
+      text-align: center;
+  }
+   
+}
+ 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+
+
+
+/* End Media Queries */
+
+
+
