@@ -11,7 +11,7 @@ a:hover {
 
 
 .backimage {
-            background: url("../img/newbeer.jpg");/* "../img/image25.jpg");/*("../img/beerwinebackground.jpg");*/
+            background: url("../img/image19.jpg");/* "../img/image25.jpg");/*("../img/beerwinebackground.jpg");*/
             background-repeat: repeat-y;
             background-size: 100%;    
 }
@@ -63,6 +63,9 @@ button {
 }
 
 
+.dailyspecial {
+               font-size: 24px;
+}
 
 .delipic {
           transform: rotate(270deg);
@@ -466,9 +469,9 @@ img.hover-shadow {
     /*table {margin-left: 75px;
 }*/
     .bottlelist li {font-size: 18px;
-}
+}/*
     .nav-toggle {display: inline-block;
-}
+}*/
   /*  ul.nav.navbar-nav {font-size:75%;
 }*/
     
@@ -602,18 +605,6 @@ img.hover-shadow {
    
 }
  
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...} 
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...} 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
 
 
 
